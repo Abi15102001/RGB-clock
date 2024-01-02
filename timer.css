@@ -1,0 +1,112 @@
+body{ height: 80vh;
+    background-color: black;
+    }
+    #r{color: red; }
+    #g{color: rgb(0, 255, 0);}
+    #b{color: blue;}
+    
+    .hidden{display: none;}
+    
+    
+    svg{
+        transform: translate(77px,45px);
+        fill: transparent;
+    }
+    
+    #hours{
+    transform: translate(110px,-35px);
+    }
+    #minutes{
+        transform: translate(110px,-35px);
+        }
+     #seconds{
+           transform: translate(110px,-35px);
+            }
+            #ampm{
+                transform: translate(40px,40px);
+            }   
+     #milliseconds{
+        transform: translate(110px,-35px);
+         }
+    #svghours{
+        stroke: rgb(255, 0, 0);
+        stroke-width: 4;
+        stroke-dasharray: 410;
+        transform: rotate(270deg);
+    }
+    #svgminutes{
+        
+        stroke:rgb(2, 255, 2);
+        stroke-width: 4;
+        stroke-dasharray: 410;
+        transform: rotate(270deg);
+    }
+    #svgseconds{
+        
+        stroke:rgb(0, 0, 255);
+        stroke-width: 4;
+        stroke-dasharray: 410;
+        transform: rotate(270deg);
+    }
+    #svgmilliseconds{
+        
+        stroke:rgb(0, 0, 255);
+        stroke-width: 4;
+        stroke-dasharray: 410;
+        transform: rotate(270deg);
+    }
+    p{
+        margin-left: 6.7rem;
+    }
+    
+    .hrdot{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        content: '';
+        position: absolute;
+        background-color: red;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px red;
+        transform: translate(140px,85px);
+    
+    }
+    .mindot{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        content: '';
+        position: absolute;
+        background-color:rgb(0, 255, 0);
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px rgb(0, 255, 0);
+        transform: translate(140px,85px);
+    }
+    .secdot{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        content: '';
+        position: absolute;
+        background-color:rgb(0, 0, 255);
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        transform: translate(140px,85px);
+        box-shadow: 0px 0px 15px blue;
+    }
+    
+    
+    
+    
+    
